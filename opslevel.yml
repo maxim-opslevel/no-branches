@@ -1,0 +1,26 @@
+---
+version: 1
+service:
+  name: API Gateway
+  lifecycle:
+  tier: tier_1
+  product:
+  owner: backend
+  language:
+  framework:
+  description: Routes traffic to the proper service
+  aliases:
+  tags:
+  - key: tag1
+    value: value2222222
+  - key: tag1
+    value: value222222
+  - key: tag1
+    value: value22222
+  repositories:
+  - name: maxim-opslevel/no-branches
+    path: "/"
+    provider: github
+  tools:
+  dependencies:
+  - alias: authentication
