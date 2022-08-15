@@ -1,0 +1,19 @@
+---
+version: 1
+service:
+  name: lock me plz
+  lifecycle:
+  tier:
+  product:
+  owner: backend
+  language:
+  framework:
+  description:
+  aliases:
+  tags:
+  repositories:
+  - name: maxim-opslevel/no-branches
+    path: "/"
+    provider: github
+  tools:
+  dependencies:
